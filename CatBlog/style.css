@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+    font-size: 62.5%;
+
+    --color-base: #ffffff;
+    --color-dark-blue: #065E7C;
+    --color-light-blue: #387E96;
+
+}
+
+html, body, input {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    font-size: 1.6rem;
+}
+
+
+
+.container {
+    padding: 1.6rem 3.2rem;
+    width: min(112rem, 100%);
+    margin: 0 auto;
+}
+
+main {
+    overflow-y: scroll;
+    background-color: var(--color-base);
+}
+
+header, nav {
+    background-color: var(--color-dark-blue);
+    display: flex;
+    align-items: center;
+    gap: 7.2rem;
+    height: 4.5rem;
+}
+
+header form {
+    flex: 1;
+    font-weight: 600;
+    font-size: 16;
+}
+
+.logo {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.input-wrapper label {
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+}
+
+.input-wrapper input {
+    width: 67.6rem;
+    height: 2.5rem;
+    border: 0;
+    border-radius: 0.25rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    opacity: 0.56;
+    color: #ffffff;
+    
+}
+
+.avatar {
+    width: 2.62rem;
+    height: 2.62rem;
+}
+
+footer {
+    background-color: var(--color-light-blue);
+    
+    height: 4rem;
+}
+
+footer p {
+    color: var(--color-base);
+    text-align: center;
+    font-weight: 600;
+    font-size: 16;
+
+    padding: 1.6;
+}
+
+/* Página inicial */
+main h2 {
+    font-size: 24px;
+    padding-bottom: 1.93rem;
+}
+
+main span {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.maincat {
+    padding-bottom: 1.93rem;
+    border-radius: 5px;
+}
+
+.sidebar {
+    display: grid;
+    grid-template-columns: 1fr;
+}
